@@ -61,10 +61,6 @@
 
   <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="rising" />
 
-  <!-- CodeLinaro additions -->
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" remote="rising" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="rising" />
-
   <!-- External -->
   <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="rising" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="rising" />
